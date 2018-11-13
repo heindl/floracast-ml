@@ -1,0 +1,21 @@
+embed_size: 40
+pool_size: 10
+num_epochs: 200
+init_learning_rate: .00002
+dropout_rate: 0
+num_filters: 16
+data_batch_size: 300
+data_split_ratio: .2
+data_normalization: None
+data_sets: [
+    ['beef', ['ucr/Beef/Beef_TRAIN', 'ucr/Beef/Beef_TEST']],
+    ['yoga', ['ucr/yoga/yoga_TRAIN', 'ucr/yoga/yoga_TEST']],
+    ['coffee', ['ucr/Coffee/Coffee_TRAIN', 'ucr/Coffee/Coffee_TEST']],
+    ['ecg200', ['ucr/ECG200/ECG200_TRAIN', 'ucr/ECG200/ECG200_TEST']],
+    ['faces', ['ucr/FacesUCR/FacesUCR_TRAIN', 'ucr/FacesUCR/FacesUCR_TEST']],
+    ['cricket_y', ['ucr/Cricket_Y/Cricket_Y_TRAIN', 'ucr/Cricket_Y/Cricket_Y_TEST']],
+    ['lighting_2', ['ucr/Lighting2/Lighting2_TRAIN', 'ucr/Lighting2/Lighting2_TEST']],
+    ['two_lead_ecg', ['ucr/TwoLeadECG/TwoLeadECG_TRAIN', 'ucr/TwoLeadECG/TwoLeadECG_TEST']],
+    ['mote_strain', ['ucr/MoteStrain/MoteStrain_TRAIN', 'ucr/MoteStrain/MoteStrain_TEST']],
+    ['two_patterns', ['ucr/Two_Patterns/Two_Patterns_TRAIN', 'ucr/Two_Patterns/Two_Patterns_TEST']],
+]
